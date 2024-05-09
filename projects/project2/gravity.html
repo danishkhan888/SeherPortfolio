@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page Gravity creation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero h4{
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbar .links{
+    font-family: 'Poppins', sans-serif;
+}
+.hero p{
+    font-family: 'Inter', sans-serif;
+
+}
+.shop_pic h4{
+    font-family: 'Inter', sans-serif;
+
+}
+.para{
+    font-family: 'Inter', sans-serif;  
+}
+  .footer{
+    font-family: 'Inter', sans-serif;
+  }  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 30px 100px;
+    
+}
+
+.links a {
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.search a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    display: inline block;
+}
+
+.search img {
+    width: 20px !important;
+    height: 30px;
+}
+
+.search .background {
+    color: white !important;
+    background-color: black;
+    border-radius: 9px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 2px;
+    text-align: center;
+}
+
+body {
+
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.hero {
+    background-image: url(https://assets-global.website-files.com/654c5f578cae1dae48ca94a1/654f1b0f5b5fc501c7d8f0be_hero-image.jpg);
+    background-size: 100% 100%;
+    background-repeat: none;
+    padding: 100px 80px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+.hero-top h4 {
+    font-size: 50px;
+    font-weight: bolder;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-top p {
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.hero-btn a {
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    flex: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btn a:hover {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+.nav-shop * {
+    font-size: 14px;
+}
+
+.shop_pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 30px;
+    margin: 30px;
+    gap: 20px;
+}
+
+.shop_pic img {
+        border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    max-width: 320px;
+    width: 100%;
+    height: 360px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+.shop_pic h4 {
+    font-size: 18px;
+    font-weight: 100;
+    
+}
+.shop_pic p{
+    font-size: 18px;
+    color: grey;
+    padding: 10px;
+}
+.shop_pic a{
+    text-decoration: none;
+    color: #000;
+}
+.para  {
+text-align: center;
+background-color:#f6f6f6;
+border-radius: 10px;
+max-width: 1100px;
+margin: 50px auto;
+width: 100%;
+}
+.para p{
+    font-size: 30px;
+    padding: 40px 70px;
+}
+ .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 40px;
+        gap: 30px;
+}
+.images img{
+width: 80px;
+padding: 11px 4px;
+opacity: 0.4;
+background-color:#f6f6f6;
+}
+.f-opacity{
+    opacity: 1 !important;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+    margin: auto;
+    }
+.g-links {
+    padding: 40px 20px;
+}
+.footer p{
+    font-size: large;
+    padding:5px 4px ;
+}
+.g-links a{
+    text-decoration: none;
+    padding: 15px;
+    gap: 40px;
+    color: #000;
+    justify-content: space-between;
+}
+.footer img{
+    font-size: 30px;
+    padding: 10px 40px;
+    width: 300px;
+}
+.f-para a{
+    color: #000;
+}
+
+
+ 
+@media screen and (max-width: 450px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .shop_pic{
+        grid-template-columns: 1fr;
+        padding: 0px;
+        margin: 30px;
+    }
+    .para p{
+        font-size: 20px;
+    }
+    .images {
+    flex-direction: column;
+    }
+    .hero {
+     
+        padding: 40px 20px;
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        background-size: cover;
+        background-position: left;
+
+    }
+    .hero h4{
+        font-size: 20px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="https://assets-global.website-files.com/654c5f578cae1dae48ca94a1/65574e271e32ab415a28fe78_gravitycreation.svg"
+            alt="">
+        <div class="links">
+            <a href="#"><u>HOME</u></a>
+            <a href="#">SHOP</a>
+            <a href="#">PAGES</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="search">
+            <a href="#"><img
+                    src="https://assets-global.website-files.com/654c5f578cae1dae48ca94a1/655adf58a0e16b277ba4eca5_search.svg"
+                    alt=""></a>
+            <div class="nav-shop">
+                <a href="#">Cart</a>
+                <a class="background" href="#">0</a>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-top">
+            <h4>Made for every<br> day, for everyone.</h4>
+            <p>As seen on Webflow Conf</p>
+        </div>
+        <div class="hero-btn">
+            <a href="#">Shop now</a>
+        </div>
+
+    </div>
+
+
+    <div class="shop_pic">
+        <div class="grid-1"> <a href="#"><img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/6556e48806849f153f0926db_shoes-5-hover.jpg"
+                    alt=""></a>
+            <a href="#">
+                <h4> Men's sneaker shoes</h4>
+                <p> $ 42.00 USD</p>
+            </a>
+        </div>
+
+        <div class="grid"><a href="#"><img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/6556e3c16b1239f456be58ec_hoodie-2-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>
+                    Veirdo men hoodie </h4>
+                <p> $ 45.00 USD</p>
+            </a>
+        </div>
+
+        <div class="grid"><a href="#"><img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/6556e35dc43b7008eaaad28b_hoodie-1-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>
+                    Men baggy hoodie
+                </h4>
+                <p> $ 45.00 USD</p>
+            </a>
+        </div>
+
+        <div class="grid"><a href="#"><img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/654cbd82b852297c730c3c40_cap-2-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>
+                    Boldfit head caps</h4>
+                <p>
+                    $ 18.00 USD</p>
+            </a>
+        </div>
+        <div class="grid"> <a href="#"><img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/654cbc265e309d3067b185dc_t-shirt-1-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>Round neck pure cotton t-shirt
+                </h4>
+                <p>$ 23.00 USD</p>
+            </a>
+        </div>
+
+        <div class="grid"><a href="#"><img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/654cbc3acc7ab8d5f97c6609_cap-5-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>
+                    Brand A- adjustable cap black plain
+                </h4>
+                <p>$ 40.00 USD</p>
+            </a>
+        </div>
+        <div class="grid"><a href="#"> <img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/654cbc5e22c2b27453600cf0_shoes-3-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>
+                    Casual sneaker shoes
+                </h4>
+                <p>$ 47.00 USD</p>
+            </a>
+        </div>
+        <div class="grid"><a href="#"> <img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/654cbc829d7911fe8f36b2f8_cap-6-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>
+                    Mens caps with adjustable strap
+                </h4>
+                <p>$ 42.00 USD</p>
+            </a>
+        </div>
+
+        <div class="grid"><a href="#"><img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/654cbca35e309d3067b1d060_t-shirt-2-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>
+                    Women pink printed boxy fit t-shirt
+                </h4>
+                <p>$ 23.00 USD</p>
+            </a>
+        </div>
+
+        <div class="grid"><a href="#"><img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/654da452eafc028dd0b0e4cf_shoes-4-hover.jpg"
+                    alt="">
+            </a>
+            <a href="#">
+                <h4>
+                    High-Top trekking shoes
+                </h4>
+                <p>$ 18.00 USD</p>
+            </a>
+        </div>
+        <div class="grid"> <a href="#"> <img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/655f1aaaba9dcaececa3c6f5_t-shirt-3-hover.jpg"
+                    alt=""></a>
+            <a href="#">
+                <h4>Cotton henley neck half sleeve</h4>
+                <p> $ 18.00 USD</p>
+            </a>
+        </div>
+        <div class="grid"> <a href="#"> <img
+                    src="https://assets-global.website-files.com/654c6f0a236ca78b2e2a0336/654cbd82b852297c730c3c40_cap-2-hover.jpg"
+                    alt=""></a>
+            <a href="#">
+                <h4>
+                    White and black visor </h4>
+                <p>$ 45.00 USD</p>
+            </a>
+        </div>
+    </div>
+    <div class="para">
+        <p>
+            Generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+            repetition.
+        </p>
+        <div class="images">
+            <a href="#">
+                <img src="https://assets-global.website-files.com/654c5f578cae1dae48ca94a1/654da83fbd187659d9b0c954_client-01.svg"
+                    alt="">
+            </a>
+            <a href="#">
+                <img class="f-opacity" src="https://assets-global.website-files.com/654c5f578cae1dae48ca94a1/654da83fbd187659d9b0c956_client-02.svg"
+                    alt=""></a>
+            <a href="#">
+                <img src="https://assets-global.website-files.com/654c5f578cae1dae48ca94a1/654da83fbd187659d9b0c957_client-03.svg"
+                    alt=""></a>
+            <a href="#">
+                <img src="https://assets-global.website-files.com/654c5f578cae1dae48ca94a1/654da83fbd187659d9b0c955_client-04.svg"
+                    alt=""></a></div>
+        </div>
+        <div class="footer">
+<a href="#"><img src="https://assets-global.website-files.com/654c5f578cae1dae48ca94a1/65574e271e32ab415a28fe78_gravitycreation.svg" alt=""></a>
+<p> But I must explain to you how all this mistaken idea of denouncing pleasure and<br>
+    praising pain was born and I will give.</p>
+<div class="g-links">
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">About</a>
+<a href="#">Blog</a>
+<a href="#">FAQs</a>
+<a href="#">Contact</a>
+<a href="#">Privacy Policy</a>
+<a href="#">Licenses</a>
+</div>
+<div class="f-para"><p>Designed by <a href="#">Webestica</a> , Powered by <a href="#">Webflow</a></p></div>
+        </div>
+    </div>
+</body>
+
+</html>
