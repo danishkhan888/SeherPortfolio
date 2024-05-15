@@ -27,7 +27,6 @@ body a{
     color: #fff;
 }
 .navbar-center *{
-max-width: 150px;
 width: 100%;
 }
 .hero{
@@ -414,6 +413,9 @@ color: darkgray;
     width: 100%;
 
 }
+.navbar-center h1{
+    color: #fff;
+}
  .icons-imgs{
     display: flex;
     justify-content: center;
@@ -438,6 +440,10 @@ color: darkgray;
 }
 .bb{
     border-left: none;
+}
+.footer-bottom h1{
+    color: #fff;
+    padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
